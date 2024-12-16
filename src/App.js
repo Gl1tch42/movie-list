@@ -21,7 +21,7 @@ function App() {
   const [movies, setMovies] = React.useState([]);
 
   const handleSearch = async (query) => {
-    const apiKey = '18dc4cb389aac32424a96a41e455e924';
+    const apiKey = 'sua api key';
     const searchUrl = `https://api.themoviedb.org/3/search/movie?api_key=${apiKey}&query=${query}`;
     
     const searchResponse = await fetch(searchUrl);
